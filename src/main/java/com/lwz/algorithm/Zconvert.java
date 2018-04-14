@@ -8,14 +8,14 @@ package com.lwz.algorithm;
  */
 public class Zconvert {
     public static void main(String[] args) {
-        String msg ="PAYPALISHIRING";
-        int flag = 3;
+        String msg ="0123456789";
+        int flag = 5;
         System.out.println(convert(msg,flag));
     }
 
     public static String convert(String s, int numRows) {
         char[] data = s.toCharArray();
-        int a = (s.length()/(2*(numRows-1))) * 2;
+        int a = (s.length()/(2*(numRows-1))) * (numRows-1);
         int b = s.length() % (2 * (numRows - 1));
         b = b <= numRows ? 1 : b - numRows;
         char[][] result = new char[numRows][a+b];
