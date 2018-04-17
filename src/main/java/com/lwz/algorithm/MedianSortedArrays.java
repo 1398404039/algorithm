@@ -3,7 +3,6 @@ package com.lwz.algorithm;
 /*
  * 给定两个大小为 m 和 n 的有序数组 nums1 和 nums2 。
  * 请找出这两个有序数组的中位数。
- *
  * 示例 1:
    nums1 = [1, 3]
    nums2 = [2]
