@@ -4,7 +4,7 @@ package com.lwz.algorithm;
 import java.util.Arrays;
 
 /*
-* 合并两个有序数组，拉链算法(从小到大)
+*  合并两个有序数组，拉链算法(从小到大)
 */
 public class MergeOrderedArray {
     public static void main(String[] args) {
